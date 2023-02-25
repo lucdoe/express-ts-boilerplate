@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "strictNullChecks": true,
+        "strict": true,
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "es6",
@@ -10,14 +10,11 @@
         "outDir": "build",
         "baseUrl": ".",
         "paths": {
-            "*": [
-                "node_modules/*"
-            ]
+            "*": ["./*", "src/*"]
         }
     },
     "include": [
-        "./app.ts",
-        "./server.ts",
-        "src/**/*"
+        "./*.ts",
+        "./src/**/*"
     ]
 }
