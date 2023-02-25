@@ -20,7 +20,7 @@ This will lint your code and fix linting errors, build the js code in the /build
 ## Features
 
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is JavaScript with syntax for types.
-- [ESLint]((https://eslint.org/): ESLint statically analyzes your code to quickly find problems.
+- [ESLint](https://eslint.org/): ESLint statically analyzes your code to quickly find problems.
 - [Express.js](https://expressjs.com/): A popular web framework for Node.js that provides a simple and flexible way to build web applications and APIs.
 - [Helmet](https://github.com/helmetjs/helmet): Helps secure Express apps with various HTTP headers.
 - [winston](https://www.npmjs.com/package/winston): A logger for just about everything.
