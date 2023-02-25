@@ -3,7 +3,7 @@
         "browser": true,
         "es2021": true
     },
-    "extends": ["standard-with-typescript", "plugin:@typescript-eslint/recommended", "google" ],
+    "extends": ["plugin:@typescript-eslint/recommended" ],
     "overrides": [
     ],
     "parser": "@typescript-eslint/parser",
@@ -16,5 +16,6 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "indent": 0
     }
 }
