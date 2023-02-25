@@ -15,15 +15,6 @@ npm install
 npm start
 ```
 
-Using Yarn
-
-```bash
-git clone https://github.com/your-username/express-boilerplate.git
-cd express-boilerplate
-yarn -I
-yarn start
-```
-
 This will start the development server at http://localhost:3000. You can start building by modifying the code in the src directory.
 
 ## Features
