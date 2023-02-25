@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "build",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "./app.ts",
+        "./server.ts",
+        "src/**/*"
+    ]
+}
