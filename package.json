@@ -7,7 +7,8 @@
     "prebuild": "npx eslint ./src --ext .ts --fix",
     "build": "tsc",
     "prestart": "npm run build",
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon --watch src --exec npm run start"
   },
   "repository": {
     "type": "git",
