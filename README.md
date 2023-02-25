@@ -26,6 +26,10 @@ This will lint your code and fix linting errors, build the js code in the /build
 - [winston](https://www.npmjs.com/package/winston): A logger for just about everything.
 - [nodemon](https://www.npmjs.com/package/nodemon): A development utility that automatically restarts the server when changes are made to the code.
 
+## Contributing
+
+Contributions to this boilerplate are very welcome! If you find a bug or want to suggest a new feature, feel free to open an issue or submit a pull request.
+
 ## License
 
 This boilerplate is licensed under the MIT License. You can find a copy of the license in the LICENSE file.
