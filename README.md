@@ -9,7 +9,7 @@ To get started with this boilerplate, you can simply clone the repository and st
 Using npm
 
 ```bash
-git clone https://github.com/your-username/express-boilerplate.git
+git clone https://github.com/lucdoe/express-ts-boilerplate.git
 cd express-boilerplate
 npm install
 npm start
@@ -26,6 +26,16 @@ This will lint your code and fix linting errors, build the js code in the /build
 - [cors](https://github.com/expressjs/cors): A Node.js CORS middleware.
 - [winston](https://www.npmjs.com/package/winston): A logger for just about everything.
 - [nodemon](https://www.npmjs.com/package/nodemon): A development utility that automatically restarts the server when changes are made to the code.
+
+## Structure 
+
+The structure should help teams understand and separte concerns. It should be boring to build on top of this structure, everyone should know where to put things. 
+
+The general idea here uses names for folders also used in the Express Docs to make it clear what sits where. 
+
+<b>`Routes -> Middlewares -> Controllers -> Services -> Database Methods -> Persistent Layer`</b>
+
+Where <b>utils</b> is a seperate folder to host functions to be used througout the application.
 
 ## Contributing
 
