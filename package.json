@@ -8,7 +8,8 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node .",
-    "dev": "nodemon --watch src --exec npm run start"
+    "dev": "nodemon --watch src --exec npm run start",
+    "prod": "npm run build && pm2 start . -i 4 --name \"express-ts-boilerplate\""
   },
   "repository": {
     "type": "git",
