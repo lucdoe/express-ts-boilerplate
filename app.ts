@@ -1,15 +1,15 @@
 import cors from 'cors'
-import express, { json, urlencoded, type Express } from 'express'
+import express, { Application, json, urlencoded } from 'express'
 import helmet from 'helmet'
-import featureRoute from 'routes/featureRoutes'
+import featureRouter from 'routes/featureRoutes'
 
-const app: Express = express()
+const app: Application = express()
 
 app.use(cors())
 app.use(helmet())
 app.use(json())
 app.use(urlencoded({ extended: true, limit: '50mb' }))
 
-app.use('/feature', featureRoute)
+app.use('/feature', featureRouter)
 
 export default app
