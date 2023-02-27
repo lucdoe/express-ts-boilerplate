@@ -1,6 +1,6 @@
 # express-ts-boilerplate
 
-This is a simple boilerplate template for building microservices and APIs with Express.js. It provides a basic structure for organizing your code and includes some common libraries and utilities such as Linter, Logger, Security Haeders and a TypeScript Setup ready to roll.
+This is a simple and opinionated boilerplate template for building microservices/ APIs with Express.js. It provides a basic structure for organizing your code and includes some common libraries and utilities such as Linter, Logger, Security Haeders, Sanitization, Compression and a TypeScript Setup ready to roll.
 
 ## Getting Started
 
@@ -22,12 +22,19 @@ npm start
 
 This will lint your code and fix linting errors, build the js code in the /build directory and start the development server at http://localhost:3000. You can start building by modifying the code in the src directory.
 
+## Note on going to Production
+
+Keep in mind that this a boilerplate, it is not meant to be taken to production straight away. Take everthing with a grain of salt and adapt packages and settings of these packages for your own use case. <br/>
+It is an opinionated setup for Express which worked really well for me and the teams I was working with as a starting point.
+
 ## Features
 
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is JavaScript with syntax for types.
 - [ESLint](https://eslint.org/): ESLint statically analyzes your code to quickly find problems.
 - [Express.js](https://expressjs.com/): A popular web framework for Node.js that provides a simple and flexible way to build web applications and APIs.
 - [Helmet](https://github.com/helmetjs/helmet): Helps secure Express apps with various HTTP headers.
+- [compression](https://www.npmjs.com/package/compression): Node.js compression middleware.
+- [express-validator](https://www.npmjs.com/package/express-validator): Express middleware for validation and sanitization.
 - [cors](https://github.com/expressjs/cors): A Node.js CORS middleware.
 - [winston](https://www.npmjs.com/package/winston): A logger for just about everything.
 - [nodemon](https://www.npmjs.com/package/nodemon): A development utility that automatically restarts the server when changes are made to the code.
