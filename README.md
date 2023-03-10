@@ -1,14 +1,14 @@
 # express-ts-boilerplate
 
-This is a simple and opinionated boilerplate template for building microservices/ APIs with Express.js. It provides a basic structure for organizing your code and includes some common libraries and utilities such as Linter, Logger, Security Haeders, Sanitization, Compression and a TypeScript Setup ready to roll.
+This is a simple and opinionated boilerplate template for building microservices/ APIs with Express.js. It provides a basic structure for organizing your code and includes some common libaries and utilities such as Linter, Logger, Security Haeders, Sanitization, Compression and a TypeScript Setup ready to roll.
 
 ## Getting Started
 
 To get started with this boilerplate, you can simply clone the repository and start building your own microservices/ APIs.
 
-Using npm
-If you want to use pm2 in Production install pm2:
-
+Using npm:
+<br />
+If you want to use pm2 in Production additonally install pm2:
 ```bash
 npm install pm2 -g
 ```
@@ -20,7 +20,7 @@ npm install
 npm start
 ```
 
-This will lint your code and fix linting errors, build the js code in the /build directory and start the development server at http://localhost:3000. You can start building by modifying the code in the src directory.
+This will lint your code and fix linting errors, build the js code in the /build directory and start the development server at http://localhost:3000. You can start building by modifying the code in the /src directory.
 
 ## Note on going to Production
 
