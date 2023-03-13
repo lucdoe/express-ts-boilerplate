@@ -2,11 +2,11 @@ import compression from 'compression'
 import cors from 'cors'
 import express, { Application, json, urlencoded } from 'express'
 import helmet from 'helmet'
-import featureRouter from 'routes/featureRoutes'
 import {
   sanitizeBodys,
   sanitizeHeadersAndQueryParams,
-} from 'src/middlewares/sanitization'
+} from 'middlewares/sanitization'
+import featureRouter from 'routes/featureRoutes'
 
 const app: Application = express()
 

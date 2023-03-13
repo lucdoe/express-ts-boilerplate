@@ -1,4 +1,3 @@
-import app from 'app'
 import {
   type ErrorRequestHandler,
   type NextFunction,
@@ -6,6 +5,7 @@ import {
   type Response,
 } from 'express'
 import { type Server } from 'http'
+import app from './app'
 
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(404).json('Not Found.')
