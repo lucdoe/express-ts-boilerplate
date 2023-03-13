@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { featureService } from 'services/feautureServices'
+import { featureService } from '../services/feautureServices'
 
 export const featureController = async (req: Request, res: Response) => {
   try {

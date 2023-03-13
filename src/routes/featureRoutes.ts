@@ -1,6 +1,6 @@
-import { featureController } from 'controllers/featureControllers'
 import { Router } from 'express'
-import { featureMiddleware } from 'middlewares/featureMiddlewares'
+import { featureController } from '../controllers/featureControllers'
+import { featureMiddleware } from '../middlewares/featureMiddlewares'
 
 const featureRouter: Router = Router()
 

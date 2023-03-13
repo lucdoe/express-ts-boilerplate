@@ -2,7 +2,7 @@
   "name": "express-ts-boilerplate",
   "version": "0.0.1",
   "description": "A boilerplate structure for an scalable Express.js Backend with TypeScript and JS Standard Linter.",
-  "main": "build/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "prebuild": "npx eslint ./src --ext .ts --fix",
     "build": "tsc",

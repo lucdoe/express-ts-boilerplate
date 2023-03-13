@@ -5,8 +5,8 @@ import helmet from 'helmet'
 import {
   sanitizeBodys,
   sanitizeHeadersAndQueryParams,
-} from 'middlewares/sanitization'
-import featureRouter from 'routes/featureRoutes'
+} from './middlewares/sanitization'
+import featureRouter from './routes/featureRoutes'
 
 const app: Application = express()
 

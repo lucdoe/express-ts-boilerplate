@@ -1,4 +1,4 @@
-import { findFeature } from 'database/featureDB'
+import { findFeature } from '../database/featureDB'
 
 export const featureService = async () => {
   try {

@@ -1,20 +1,17 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "module": "commonjs",
-        "esModuleInterop": true,
-        "target": "es6",
-        "noImplicitAny": true,
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "outDir": "build",
-        "baseUrl": ".",
-        "paths": {
-            "*": ["./*", "src/*"]
-        }
-    },
-    "include": [
-        "./*.ts",
-        "./src/**/*"
-    ]
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["src/**/*"]
 }
