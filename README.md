@@ -4,23 +4,9 @@ This is a simple and opinionated boilerplate template for building microservices
 
 ## Getting Started
 
-To get started with this boilerplate, you can simply clone the repository and start building your own microservices/ APIs.
-
-Using npm:
+To get started with this boilerplate, you can for now download the repository as a zip, unzip it and start building your own microservices/ API.
 <br />
-If you want to use pm2 in Production additonally install pm2:
-```bash
-npm install pm2 -g
-```
-
-```bash
-git clone https://github.com/lucdoe/express-ts-boilerplate.git
-cd express-boilerplate
-npm install
-npm start
-```
-
-This will lint your code and fix linting errors, build the js code in the /build directory and start the development server at http://localhost:3000. You can start building by modifying the code in the /src directory.
+If you want to than start it either use the NPM scripts in the package.json (normal start or with Docker).
 
 ## Note on going to Production
 
