@@ -1,29 +1,38 @@
-# express-ts-boilerplate
+# Express-TS-Boilerplate
 
-This is a simple and opinionated boilerplate template for building microservices/ APIs with Express.js. It provides a basic structure for organizing your code and includes some common libaries and utilities such as Linter, Logger, Security Haeders, Sanitization, Compression and a TypeScript Setup ready to roll.
+A opinionated boilerplate structure for a scalable Express.js backend with TypeScript and JS Standard Linter for building Microservices/ APIs.
 
-## Getting Started
+## Features
 
-To get started with this boilerplate, you can for now download the repository as a zip, unzip it and start building your own microservices/ API.
-<br />
-If you want to than start it either use the NPM scripts in the package.json (normal start or with Docker).
+- Express.js framework
+- TypeScript integration
+- StandardJS Linter
+- Middleware packages: compression, cors, helmet, express-validator
+- Logging with Winston
+- Docker and Docker Compose support
+
+## Requirements
+
+- Node.js v14.x.x or higher
+- Docker (optional for containerization)
+
+## Available Scripts
+
+- `npm run lint`: Lint and fix TypeScript files with StandardJS.
+- `npm start`: Start the production server.
+- `npm run predev`: Lint, fix, and compile TypeScript files.
+- `npm run dev`: Start the development server with hot-reloading.
+- `npm run build:docker`: Build the Docker image for the application.
+- `npm run run:docker`: Run the application using the Docker container.
+- `npm run compose:docker`: Start the application and related services using Docker Compose.
+- `npm run down:docker`: Stop and remove the application and related services using Docker Compose.
+- `npm run stop:docker`: Stop the Docker container.
+- `npm run remove:docker`: Remove the Docker container.
 
 ## Note on going to Production
 
 Keep in mind that this a boilerplate, it is not meant to be taken to production straight away. Take everthing with a grain of salt and adapt packages and settings of these packages for your own use case. <br/>
 It is an opinionated setup for Express which worked really well for me and the teams I was working with as a starting point.
-
-## Features
-
-- [TypeScript](https://www.typescriptlang.org/): TypeScript is JavaScript with syntax for types.
-- [ESLint](https://eslint.org/): ESLint statically analyzes your code to quickly find problems.
-- [Express.js](https://expressjs.com/): A popular web framework for Node.js that provides a simple and flexible way to build web applications and APIs.
-- [Helmet](https://github.com/helmetjs/helmet): Helps secure Express apps with various HTTP headers.
-- [compression](https://www.npmjs.com/package/compression): Node.js compression middleware.
-- [express-validator](https://www.npmjs.com/package/express-validator): Express middleware for validation and sanitization.
-- [cors](https://github.com/expressjs/cors): A Node.js CORS middleware.
-- [winston](https://www.npmjs.com/package/winston): A logger for just about everything.
-- [nodemon](https://www.npmjs.com/package/nodemon): A development utility that automatically restarts the server when changes are made to the code.
 
 ## Structure
 
@@ -41,7 +50,7 @@ Contributions to this boilerplate are very welcome! If you find a bug or want to
 
 ## License
 
-This boilerplate is licensed under the MIT License. You can find a copy of the license in the LICENSE file.
+This boilerplate is licensed under the MIT License. You can find a copy of the license in the [LICENSE](LICENSE) file.
 
 [MIT](LICENSE)
 
