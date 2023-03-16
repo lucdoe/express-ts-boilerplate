@@ -23,10 +23,10 @@ app.use(
   },
 )
 
-const port: string | number = 3000
+const port: string | number = process.env.APP_PORT || 3000
 
 const server: Server = app.listen(port, async () => {
-  console.log('\n  ------ Server started :3000 ------')
+  console.log(`\n  ------ Server started :${port} ------`)
 })
 
 export default server

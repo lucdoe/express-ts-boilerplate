@@ -10,6 +10,8 @@
     "dev": "nodemon --watch src dist/server.js",
     "build:docker": "npm run lint && tsc && docker build -t express-ts-boilerplate .",
     "run:docker": "docker run -p 3000:3000 --rm --name express-container express-ts-boilerplate",
+    "compose:docker": "docker-compose up",
+    "down:docker": "docker-compose down",
     "stop:docker": "docker stop express-container",
     "remove:docker": "docker rm express-container"
   },
