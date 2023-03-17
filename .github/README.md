@@ -155,9 +155,9 @@ Starring the project is an easy and free way to show your support, and it helps 
 
 ## License
 
-This Express-TS-Boilerplate Application is licensed under the MIT License. You can find a copy of the license in the [LICENSE](LICENSE) file.
+This Express-TS-Boilerplate Application is licensed under the MIT License. You can find a copy of the license in the [LICENSE](.github/LICENSE) file.
 
-[MIT](LICENSE)
+[MIT](.github/LICENSE)
 
 ## Acknowledgments
 
