@@ -156,6 +156,11 @@ If you encounter a bug or have a question, please open a new issue. Provide a cl
 Before submitting your pull request, please ensure that your changes follow the existing coding style and that all tests pass (if applicable). I appreciate your help in making this boilerplate even better!
 
 
+## Support the Project
+
+If you find this boilerplate helpful and would like to support its continued development, please consider giving it a star. Your support and appreciation motivates me to keep improving the project and make it even better for the community/ you.
+Starring the project is an easy and free way to show your support, and it helps increase its visibility so that more people can benefit from it. I truly appreciate every star and I am grateful for your encouragement. Thank you!
+
 
 ## License
 
