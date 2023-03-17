@@ -29,7 +29,7 @@ A opinionated boilerplate structure for a scalable Express.js backend with TypeS
 - `npm run stop:docker`: Stop the Docker container.
 - `npm run remove:docker`: Remove the Docker container.
 
-## Going to Production with [Your Project Name]
+## Going to Production
 
 This Express.js Boilerplate Application is designed to help you get started quickly and efficiently. However, when transitioning to a production environment, there are several considerations to ensure your application is secure, stable, and performant. Please follow these best practices before deploying your application to production:
 
