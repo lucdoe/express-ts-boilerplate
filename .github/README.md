@@ -21,7 +21,6 @@ This Express-TS-Boilerplate Application comes with a set of built-in features, a
 
 To get started, simply download the repository, install the dependencies, and begin developing your API following the provided structure and guidelines. Happy coding!
 
-
 ## Requirements
 
 - Node.js v14.x.x or higher
@@ -45,6 +44,7 @@ To get started, simply download the repository, install the dependencies, and be
 This Express-TS-Boilerplate Application is designed to help you get started quickly and efficiently. However, when transitioning to a production environment, there are several considerations to ensure your application is secure, stable, and performant. Please follow these best practices before deploying your application to production:
 
 ### 1. Security
+
 - **Use HTTPS**: Secure your application by enabling HTTPS. This encrypts data between the client and server, ensuring sensitive information is transmitted securely.
 - **Update Dependencies**: Regularly check for and update dependencies to mitigate potential security vulnerabilities.
 - **Enable Security Headers**: Use the [helmet](https://www.npmjs.com/package/helmet) package to enable various security headers that help protect your application from common attacks.
@@ -52,22 +52,24 @@ This Express-TS-Boilerplate Application is designed to help you get started quic
 - **Authentication and Authorization**: Implement a secure authentication and authorization system to manage user access and privileges.
 
 ### 2. Performance
+
 - **Use Compression**: Enable compression with [compression](https://www.npmjs.com/package/compression) middleware to reduce the size of the HTTP response.
 - **Cache Content**: Cache static content to reduce server load and improve response times. Use a caching mechanism like Redis or in-memory caching for dynamic content.
 - **Optimize Database Queries**: Analyze and optimize your database queries to minimize response time and improve overall performance.
 
 ### 3. Stability
+
 - **Error Handling**: Implement proper error handling to ensure application stability, including logging and handling uncaught exceptions.
 - **Testing**: Write comprehensive tests to ensure the reliability of your application. Use testing frameworks like Mocha, Jest, or Jasmine to create unit, integration, and end-to-end tests.
 - **Continuous Integration**: Set up a continuous integration (CI) system, such as GitHub Actions or Jenkins, to automatically test and build your application upon changes.
 - **Monitoring**: Monitor your application to detect and resolve issues proactively. Use tools like [New Relic](https://www.newrelic.com/) or [Datadog](https://www.datadoghq.com/) for real-time monitoring and alerting.
 
 ### 4. Scalability
+
 - **Load Balancing**: Utilize load balancing to distribute traffic across multiple instances of your application, increasing its ability to handle high traffic loads.
 - **Horizontal Scaling**: Design your application to support horizontal scaling, enabling it to handle increased traffic by adding more resources (e.g., servers) rather than increasing the capacity of existing resources.
 
 **Please Note**: The above guidelines are intended to help you get started with your production deployment, but they may not be exhaustive. It's crucial to consult additional resources or seek expert advice to ensure your application meets all necessary requirements for your specific use case. Stay legally compliant and prioritize the safety and security of your application at all times.
-
 
 ## Project Structure and Flow
 
@@ -93,7 +95,6 @@ This Express-TS-Boilerplate Application is designed with a separation of concern
 - `utils`: Includes utility functions and reusable code snippets that can be used throughout the application.
 
 This structure aims to promote a modular and maintainable codebase while adhering to best practices for separation of concerns for Express.js.
-
 
 ## Deployment
 
@@ -135,7 +136,6 @@ Kubernetes deployment section coming soon...
 
 These deployment options are meant to give you an idea of the different ways you can deploy your application. Depending on your specific requirements and infrastructure, you may need to tailor the deployment process to meet your needs. Be sure to consult the official documentation for each tool or platform to ensure a smooth and successful deployment.
 
-
 ## Contributing
 
 Contributions to this boilerplate are very welcome! If you find a bug, have a question, or want to suggest a new feature, you can either open an issue or follow the following steps to contribute:
@@ -143,6 +143,8 @@ Contributions to this boilerplate are very welcome! If you find a bug, have a qu
 ### Open an Issue
 
 If you encounter a bug or have a question, please open a new issue. Provide a clear description of the issue or question, and include any relevant information, such as error messages or steps to reproduce the bug.
+
+Find the issue templates here: [Issue Templates](/.github/ISSUE_TEMPLATE).
 
 ### Contribute Code
 
@@ -155,12 +157,10 @@ If you encounter a bug or have a question, please open a new issue. Provide a cl
 
 Before submitting your pull request, please ensure that your changes follow the existing coding style and that all tests pass (if applicable). I appreciate your help in making this boilerplate even better!
 
-
 ## Support the Project
 
 If you find this boilerplate helpful and would like to support its continued development, please consider giving it a star. Your support and appreciation motivates me to keep improving the project and make it even better for the community/ you.
 Starring the project is an easy and free way to show your support, and it helps increase its visibility so that more people can benefit from it. I truly appreciate every star and I am grateful for your encouragement. Thank you!
-
 
 ## License
 
