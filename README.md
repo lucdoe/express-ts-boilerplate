@@ -4,12 +4,23 @@ A opinionated boilerplate structure for a scalable Express.js backend with TypeS
 
 ## Features
 
-- Express.js framework
-- TypeScript integration
-- StandardJS Linter
-- Middleware packages: compression, cors, helmet, express-validator
-- Logging with Winston
-- Docker and Docker Compose support
+This Express-TS-Boilerplate Application comes with a set of built-in features, allowing you to quickly start building your API. The main features include:
+
+1. **Express.js**: A minimal and flexible Node.js web application framework, providing a robust set of features for building web and mobile applications.
+2. **TypeScript**: A superset of JavaScript that adds optional static types, allowing for improved developer experience, code maintainability, and error prevention.
+3. **Middleware Integration**: Built-in support for essential middleware, such as:
+   - **Helmet**: Secure your application by setting various HTTP headers.
+   - **Compression**: Improve performance by compressing response data using gzip.
+   - **CORS**: Enable Cross-Origin Resource Sharing, providing control over which resources are accessible from other domains.
+   - **Express Validator**: Validate and sanitize user input to prevent attacks and ensure data integrity.
+4. **Logging**: Utilize the power of the Winston logging library to log application events, errors, and other relevant information.
+5. **Development Tools**:
+   - **ESLint**: Automatically detect and fix code issues following best practices and style guidelines.
+   - **Nodemon**: Monitor code changes and automatically restart the application during development.
+6. **Modular and Scalable Architecture**: Organize your code using a clean separation of concerns, making it easy to maintain and scale your application.
+
+To get started, simply download the repository, install the dependencies, and begin developing your API following the provided structure and guidelines. Happy coding!
+
 
 ## Requirements
 
@@ -31,7 +42,7 @@ A opinionated boilerplate structure for a scalable Express.js backend with TypeS
 
 ## Going to Production
 
-This Express.js Boilerplate Application is designed to help you get started quickly and efficiently. However, when transitioning to a production environment, there are several considerations to ensure your application is secure, stable, and performant. Please follow these best practices before deploying your application to production:
+This Express-TS-Boilerplate Application is designed to help you get started quickly and efficiently. However, when transitioning to a production environment, there are several considerations to ensure your application is secure, stable, and performant. Please follow these best practices before deploying your application to production:
 
 ### 1. Security
 - **Use HTTPS**: Secure your application by enabling HTTPS. This encrypts data between the client and server, ensuring sensitive information is transmitted securely.
@@ -58,29 +69,62 @@ This Express.js Boilerplate Application is designed to help you get started quic
 **Please Note**: The above guidelines are intended to help you get started with your production deployment, but they may not be exhaustive. It's crucial to consult additional resources or seek expert advice to ensure your application meets all necessary requirements for your specific use case. Stay legally compliant and prioritize the safety and security of your application at all times.
 
 
-## Structure
+## Project Structure and Flow
 
-The structure should help teams understand and separte concerns. It should be boring to build on top of this structure, everyone should know where to put things.
+This Express-TS-Boilerplate Application is designed with a separation of concerns in mind, aiming to make the codebase more maintainable and scalable. The main folders are `configs`, `controllers`, `database`, `interfaces`, `middlewares`, `routes`, `services`, and `utils`. The flow of a request through the application would be as follows:
 
-The general idea here uses names for folders also used in the Express Docs to make it clear what sits where.
+1. **Request**
+2. **Routes**: Application's endpoints and the associated controllers.
+3. **Middlewares**: Handle tasks such as input validation, logging, authentication, and authorization.
+4. **Controllers**: Process incoming requests and orchestrate the application's response.
+5. **Services**: Contain the core business logic and interact with the database methods.
+6. **Database Methods**: Provide an abstraction layer for interacting with the data storage system.
+7. **Persistent Layer**: Represents the data storage system/ Model definition (e.g., SQL, NoSQL databases).
 
-<b>`Routes -> Middlewares -> Controllers -> Services -> Database Methods -> Persistent Layer`</b>
+### Folder Structure
 
-Where <b>utils</b> is a seperate folder to host functions to be used througout the application.
+- `configs`: Contains configuration files, including settings for the database, environment variables, and other global configurations.
+- `controllers`: Contains controller files that handle incoming HTTP requests and delegate tasks to the appropriate services.
+- `database`: Includes files related to setting up and configuring the database connection, as well as defining database models and methods.
+- `interfaces`: Contains TypeScript interfaces and type definitions for various components, such as models, services, and controllers.
+- `middlewares`: Stores middleware functions that are executed between receiving a request and invoking the associated controller.
+- `routes`: Holds route files that define the application's endpoints and map them to their respective controllers.
+- `services`: Contains service files that encapsulate the core business logic and interact with database methods to fetch, create, update, or delete data.
+- `utils`: Includes utility functions and reusable code snippets that can be used throughout the application.
+
+This structure aims to promote a modular and maintainable codebase while adhering to best practices for separation of concerns for Express.js.
+
 
 ## Contributing
 
-Contributions to this boilerplate are very welcome! If you find a bug or want to suggest a new feature, feel free to open an issue or submit a pull request.
+Contributions to this boilerplate are very welcome! If you find a bug, have a question, or want to suggest a new feature, you can either open an issue or follow the following steps to contribute:
+
+### Open an Issue
+
+If you encounter a bug or have a question, please open a new issue. Provide a clear description of the issue or question, and include any relevant information, such as error messages or steps to reproduce the bug.
+
+### Contribute Code
+
+1. **Fork the repository**: Create a fork of this repository by clicking the "Fork" button in the upper-right corner of the project page.
+2. **Clone your fork**: Clone your forked repository to your local machine by running `git clone https://github.com/your-username/express-ts-boilerplate.git`.
+3. **Create a new branch**: Create a new branch for your changes by running `git checkout -b my-feature-branch`.
+4. **Make your changes**: Implement the bug fix or feature in your new branch. Don't forget to add and commit your changes with a descriptive commit message.
+5. **Push your changes**: Push your changes to your forked repository by running `git push origin my-feature-branch`.
+6. **Submit a pull request**: Create a new pull request from your feature branch to the main branch of the original repository. Provide a clear description of your changes and any additional information necessary for the me to understand your contribution.
+
+Before submitting your pull request, please ensure that your changes follow the existing coding style and that all tests pass (if applicable). I appreciate your help in making this boilerplate even better!
+
+
 
 ## License
 
-This boilerplate is licensed under the MIT License. You can find a copy of the license in the [LICENSE](LICENSE) file.
+This Express-TS-Boilerplate Application is licensed under the MIT License. You can find a copy of the license in the [LICENSE](LICENSE) file.
 
 [MIT](LICENSE)
 
 ## Acknowledgments
 
-This boilerplate was inspired by the following resources:
+This Express-TS-Boilerplate Application was inspired by the following resources:
 
 - [Express](https://github.com/expressjs/express)
 - [Expressjs Project Structure Blog Article](https://blog.logrocket.com/organizing-express-js-project-structure-better-productivity/)
