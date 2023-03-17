@@ -55,7 +55,7 @@ This Express-TS-Boilerplate Application is designed to help you get started quic
 
 - **Use Compression**: Enable compression with [compression](https://www.npmjs.com/package/compression) middleware to reduce the size of the HTTP response.
 - **Cache Content**: Cache static content to reduce server load and improve response times. Use a caching mechanism like Redis or in-memory caching for dynamic content.
-- **Optimize Database Queries**: Analyze and optimize your database queries to minimize response time and improve overall performance.
+- **Optimize Database Queries**: Analyze and optimize your database queries to minimize response time and improve overall performance. See this [LinkedIn Post by Dr. Milan Milanović](https://www.linkedin.com/posts/milanmilanovic_technology-softwareengineering-programming-activity-7041664329175212032-h-Rp?utm_source=share&utm_medium=member_desktop) for more information.
 
 ### 3. Stability
 
