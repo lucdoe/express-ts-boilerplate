@@ -97,9 +97,9 @@ This structure aims to promote a modular and maintainable codebase while adherin
 
 ## Deployment
 
-There are several ways to deploy this Express.js Boilerplate Application, depending on your requirements and infrastructure. Below, we provide a brief overview of some common deployment options:
+There are several ways to deploy this Express-TS-Boilerplate Application, depending on your requirements and infrastructure. Below, I provide a brief overview of some common deployment options:
 
-### Manual Deployment
+### 1. Manual Deployment
 
 You can manually deploy the application by following these steps:
 
@@ -109,7 +109,7 @@ You can manually deploy the application by following these steps:
 4. Run `npm run build` to compile the TypeScript code.
 5. Start the application using `npm start`.
 
-### Containerization (Docker with Dockerfile)
+### 2. Containerization (Docker with Dockerfile)
 
 You can containerize the application using Docker to create an isolated environment and simplify deployment. A `Dockerfile` is included in the repository, which you can use to build a Docker image:
 
@@ -118,10 +118,9 @@ You can containerize the application using Docker to create an isolated environm
 3. Build the Docker image using `npm run build:docker`.
 4. Run the application as a Docker container using `npm run run:docker`.
 
-### Docker Compose
+### 3. Docker Compose
 
 Docker Compose allows you to manage multi-container applications with ease. This option is especially useful if your application depends on other services, e.g. such as databases, caches, nginx or message brokers. The provided `docker-compose.yml` file creates two instances of the application running on different ports and an Nginx reverse proxy and load balancer to distribute incoming requests between the two instances:
-
 
 1. Install Docker and Docker Compose on your server.
 2. Clone the repository to your server.
@@ -130,7 +129,7 @@ Docker Compose allows you to manage multi-container applications with ease. This
 
 You can customize the docker-compose.yml file to add more services or modify the existing configuration as needed.
 
-### Kubernetes
+### 4. Kubernetes
 
 Kubernetes deployment section coming soon...
 
