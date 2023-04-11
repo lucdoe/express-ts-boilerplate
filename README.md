@@ -9,16 +9,17 @@ This Express-TS-Boilerplate Application has built-in features, allowing you to q
 
 1. **Express.js**: A minimal and flexible Node.js web application framework providing robust features for building web and mobile applications.
 2. **TypeScript**: A superset of JavaScript that adds optional static types, allowing for improved developer experience, code maintainability, and error prevention.
-3. **Middleware integration**: Built-in support for essential middleware, such as:
+3. **Dependency Injection (Example)**: A sample setup for dependency injection for loose coupling/ better testing. (Great article on the Topic and source of the example: [Dependency Injection with Expressjs and TypeScript](https://peteranderson.me/articles/dependency-injection-with-nodejs-expressjs-and-typescript)
+4. **Middleware integration**: Built-in support for essential middleware, such as:
    - **Helmet**: Secure your application by setting various HTTP headers.
    - **Compression**: Improve performance by compressing response data using gzip.
    - **CORS**: Enable Cross-Origin Resource Sharing, controlling which resources are accessible from other domains.
    - **Express Validator**: Validate and sanitize user input to prevent attacks and ensure data integrity.
-4. **Logging**: Utilize the power of the Winston logging library to log application events, errors, and other relevant information.
-5. **Development Tools**:
+5. **Logging**: Utilize the power of the Winston logging library to log application events, errors, and other relevant information.
+6. **Development Tools**:
    - **ESLint**: Automatically detect and fix code issues following best practices and style guidelines.
    - **Nodemon**: Monitor code changes and automatically restart the application during development.
-6. **Modular and Scalable Architecture**: Organize your code using a clean separation of concerns, making it easy to maintain and scale your application.
+7. **Modular and Scalable Architecture**: Organize your code using a clean separation of concerns, making it easy to maintain and scale your application.
 
 Download the repository, install the dependencies, and develop your API following the provided structure and guidelines to get started. Happy coding!
 
