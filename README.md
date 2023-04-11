@@ -77,7 +77,13 @@ This Express-TS-Boilerplate Application is designed to help you get started quic
 
 This Express-TS-Boilerplate Application is designed with a separation of concerns in mind, aiming to make the codebase more maintainable and scalable. The main folders are `configs`, `controllers`, `database`, `interfaces`, `middlewares`, `routes`, `services`, and `utils`. The flow of a request through the application would be as follows:
 
-![Image of the request/ response flow through a Express.js Application with separtion of concerns.](https://github.com/lucdoe/express-ts-boilerplate/src/public/flow-diagramm.jpeg)
+1. **Request**
+2. **Routes**: Application's endpoints and the associated controllers.
+3. **Middlewares**: Handle tasks such as input validation, logging, authentication, and authorization.
+4. **Controllers**: Process incoming requests and orchestrate the application's response.
+5. **Services**: Contain the core business logic and interact with the database methods.
+6. **Database Methods**: Provide an abstraction layer for interacting with the data storage system.
+7. **Persistent Layer**: Represents the data storage system/ Model definition (e.g., SQL, NoSQL databases).
 
 ### Folder Structure
 
